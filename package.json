@@ -1,7 +1,10 @@
 {
   "name": "tailwindcss-text-stroke",
   "version": "1.0.0",
+  "description": "Tailwind CSS plugin to add text stroke",
   "keywords": [],
+  "author": "Phat Vo",
+  "license": "MIT",
   "type": "module",
   "files": [
     "dist"
@@ -25,8 +28,6 @@
     "build": "tsc && vite build",
     "test": "vitest"
   },
-  "author": "",
-  "license": "ISC",
   "peerDependencies": {
     "tailwindcss": ">=3.4.0"
   },
