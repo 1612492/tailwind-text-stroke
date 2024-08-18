@@ -9,18 +9,18 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/tailwindcss-text-stroke.umd.cjs",
-  "module": "./dist/tailwindcss-text-stroke.js",
+  "main": "./dist/tailwind-text-stroke.umd.cjs",
+  "module": "./dist/tailwind-text-stroke.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/tailwindcss-text-stroke.js"
+        "default": "./dist/tailwind-text-stroke.js"
       },
       "require": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/tailwindcss-text-stroke.umd.cjs"
+        "default": "./dist/tailwind-text-stroke.umd.cjs"
       }
     }
   },

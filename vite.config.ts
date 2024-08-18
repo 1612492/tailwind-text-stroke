@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "tailwindcss-text-stroke",
-      fileName: "tailwindcss-text-stroke",
+      name: "tailwind-text-stroke",
+      fileName: "tailwind-text-stroke",
     },
     rollupOptions: {
       external: ["tailwindcss"],
